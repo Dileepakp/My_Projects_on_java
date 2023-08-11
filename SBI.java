@@ -44,7 +44,7 @@ public class SBI {
         int loginAttempts = 0;
 
         while (loginAttempts < MAX_LOGIN_ATTEMPTS) {
-            System.out.print("Enter your password: ");
+            System.out.print("Enter your pswd: ");
             String password = scanner.nextLine();
 
             if (password.equals(CORRECT_PASSWORD)) {
